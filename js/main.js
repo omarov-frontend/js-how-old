@@ -1,13 +1,16 @@
 const year = document.querySelector('#year');
 const calcBtn = document.querySelector('#calc');
+const message = document.querySelector('#message');
 const currentYear = 2021;
 
 calcBtn.addEventListener('click', () => {
     let result = currentYear - year.value;
 
     if(result >= 16) {
-        alert('Добро пожаловать!');
+        message.textContent = 'Добро пожаловать!';
     } else {
-        alert('Вход воспрещен!');
+        message.textContent = 'Вход воспрещен!';
     }
+
+    year.value = '';
 })

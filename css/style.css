@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #9c6630;
+    background-color: #6f30c1a8;
 }
 
 .wrapper {
@@ -15,6 +15,10 @@ body {
 
 #year {
     padding: 3px 6px;
+}
+
+#message {
+    margin-top: 10px;
 }
 
 button {
