@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9c6630;
+}
+
+.wrapper {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#year {
+    padding: 3px 6px;
+}
+
+button {
+    cursor: pointer;
+    padding: 3px 6px;
+}
