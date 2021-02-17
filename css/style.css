@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #544cce;
+}
+
+.wrapper {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#year {
+    padding: 3px 6px;
+}
+
+#message {
+    margin-top: 10px;
+}
+
+#calc {
+    cursor: pointer;
+    padding: 3px 6px;
+}
