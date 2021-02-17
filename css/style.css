@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #6f30c1a8;
+    background-color: #544cce;
 }
 
 .wrapper {
@@ -21,7 +21,7 @@ body {
     margin-top: 10px;
 }
 
-button {
+#calc {
     cursor: pointer;
     padding: 3px 6px;
 }

@@ -1,16 +1,13 @@
-const year = document.querySelector('#year');
+const yearField = document.querySelector('#year');
 const calcBtn = document.querySelector('#calc');
-const message = document.querySelector('#message');
-const currentYear = 2021;
+const messageElement = document.querySelector('#message');
+const date = new Date();
+const currentYear = date.getFullYear();
 
-calcBtn.addEventListener('click', () => {
-    let result = currentYear - year.value;
+calcBtn.addEventListener('click', function() {
+    let diff = currentYear - yearField.value;
 
-    if(result >= 16) {
-        message.textContent = 'Добро пожаловать!';
-    } else {
-        message.textContent = 'Вход воспрещен!';
-    }
+    messageElement.textContent = (diff >= 16) ? 'Добро пожаловать!' : 'Вход воспрещен!';
 
-    year.value = '';
-})
+    yearField.value = '';
+});
