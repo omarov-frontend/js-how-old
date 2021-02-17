@@ -5,7 +5,7 @@ const date = new Date();
 const currentYear = date.getFullYear();
 
 calcBtn.addEventListener('click', function() {
-    let diff = currentYear - yearField.value;
+    const diff = currentYear - yearField.value;
 
     messageElement.textContent = (diff >= 16) ? 'Добро пожаловать!' : 'Вход воспрещен!';
 
